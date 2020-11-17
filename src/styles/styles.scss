@@ -1,4 +1,25 @@
 body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
+	main {
+		width: 100vw;
+		height: 100vh;
+		overflow: hidden;
+		background: linear-gradient(to top, #000428, #003563);
+		.letter {
+			font-size: 3em;
+			color: #93cbfc;
+			transition: all 0.2s;
+			&.highlight {
+				color: #fff;
+				text-shadow: 0 0 3px #ffffff;
+			}
+		}
+		.blank {
+			display: inline-block;
+			width: 3em;
+			border-bottom: 1px solid white;
+			margin: 0 2px;
+		}
+	}
 }
