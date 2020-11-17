@@ -1,0 +1,1 @@
+const blankClicked=e=>{console.log(e)};export{blankClicked};
